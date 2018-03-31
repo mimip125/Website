@@ -72,9 +72,9 @@ body{
 				}
 			
 #img {
-    display: inline-block;
-    margin: 40px;
-    width: 80%;
+    display: block;
+    margin-left: auto;
+	margin-right: auto;
 }	
 #resume{
     width: 100%
