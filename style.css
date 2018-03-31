@@ -73,8 +73,7 @@ body{
 			
 #img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    float: center;
 }	
 #resume{
     width: 100%
