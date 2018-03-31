@@ -14,8 +14,6 @@ a{
 	color: dimgray;
 	text-decoration: none;
 }
-	a:hover,
-	a:active{ color: darkgoldenrod; }
 
 /* you can structure your code's white space so that it is as readable for when you come back in the future or for other people to read and edit quickly */
 
