@@ -1,99 +1,53 @@
-/*
-* multi-line comment
-*/
-p{ line-height: 1em; }
-h1, h2, h3, h4{
-    color: gray;
-	font-weight: normal;
-	line-height: 1.1em;
-	margin: 0 0 .5em 0;
-}
-h1{ font-size: 4em; }
-h2{ font-size: 1.5em; }
-a{
-	color: dimgray;
-	text-decoration: none;
-}
-	a:hover,
-	a:active{ color: darkgoldenrod; }
+<!DOCTYPE html>
+<html>
+<head>
 
-/* you can structure your code's white space so that it is as readable for when you come back in the future or for other people to read and edit quickly */
+<!-- your webpage info goes here -->
 
-body{
-    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; color: gray; 
-}
-/* you can but your code all in one line like above */
-#page{ margin: 20px; }
+    <title>Miranda Pepin</title>
+	
+	<meta name="author" content="your name" />
+	<meta name="description" content="" />
 
-/* or on different lines like below */
-#logo{
-	width: 35%;
-	margin-top: 5px;
-	font-family: Garamond, Baskerville, "Baskerville Old Face",           "Hoefler Text", "Times New Roman", serif; font-size: 100%; 
-	line-height: 1.2em; width: 100%; margin: 0; background: white;
-	display: inline-block;
-	text-align: center;
-}
-/* but try and be as consist possible */
-#nav{
-	width: 96%;
-	display: inline-block;
-	text-align: center;
-	float: center;
-	margin: 0;
-}
-	#nav ul{}
-		#nav ul li{
-			display: inline-block;
-			height: 62px;
-		}
-			#nav ul li a{
-				padding: 20px;
-				background: white;
-				color: gray;
-			}
-			#nav ul li a:hover{
-			    color: darkgoldenrod;
-				background-color: white;
-				box-shadow: white;
-			}
-			#nav ul li a:active{ background-color: white; }
-				#nav ul li.gray a{
-					background-color: white;
-				}
-				#nav ul li.gray a{
-					background-color: white;
-				}
-				#nav ul li.gray a{
-					background-color: white;
-				}
-				#nav ul li.gray a{
-					background-color: white;
-				}
-			
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}	
-#content{
-	margin: 30px 0;
-	background: white;
-	padding: 20px;
-	clear: both;
-}
-#footer{
-	border-bottom: 1px #ccc solid;
-	margin-bottom: 10px;
-}
-	#footer p{
-		text-align: right;
-		text-transform: uppercase;
-		font-size: 80%;
-		color: grey;
-	}
+<!-- you should always add your stylesheet (css) in the head tag so that it starts loading before the page html is being displayed -->	
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	
+</head>
+<body>
 
-/* multiple styles seperated by a , */
-#content,
-ul li a{ box-shadow: white; }
+<!-- webpage content goes here in the body -->
 
+	<div id="page">
+		<div id="logo">
+			<h1><a href="/">Miranda Pepin</a></h1>
+		</div>
+		<br/>
+		<div id="nav">
+			<ul>
+				<li class="gray"><a href="#/resume.html">Resume</a></li>
+				<li class="gray"><a href="#/projects.html">Projects</a></li>
+				<li class="gray"><a href="#/about.html">Gallery</a></li>
+				<li class="gray"><a href="#/contact.html">Contact</a></li>
+			</ul>	
+		</div>
+		<br/>
+		<br/>
+		<img src = "VIBE_Chance.jpg" alt="Me">
+		<div>
+		<div id="content">
+			<h2>Latest</h2>
+			<p>
+				Welcome friends and foes!
+			</p>
+			<p> 
+				Website in the works!
+			</p>
+		</div>
+		<div id="footer">
+			<p>
+				Webpage made by <a href="/" target="_blank">Miranda Pepin</a>
+			</p>
+		</div>
+	</div>
+</body>
+</html>
