@@ -27,16 +27,16 @@ body{
 
 /* or on different lines like below */
 #logo{
-	width: 35%;
+	width: 100%;
 	margin-top: 5px;
-	font-family: Garamond, Baskerville, "Baskerville Old Face",           "Hoefler Text", "Times New Roman", serif; font-size: 100%; 
+	font-family: Garamond, Baskerville, "Baskerville Old Face","Hoefler Text", "Times New Roman", serif; font-size: 100%; 
 	line-height: 1.2em; width: 100%; margin: 0; background: white;
 	display: inline-block;
 	text-align: center;
 }
 /* but try and be as consist possible */
 #nav{
-	width: 96%;
+	width: 100%;
 	display: inline-block;
 	text-align: center;
 	float: center;
