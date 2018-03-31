@@ -71,9 +71,9 @@ body{
 					background-color: white;
 				}
 			
-#img {
+#img.center {
     display: block;
-    margin: auto;
+    margin: 0 auto;
 }	
 #resume{
     width: 100%
