@@ -148,7 +148,7 @@ img {
 
 /* Six columns side by side */
 .column {
-  float: center;
+  float: left;
   width: 16.66%;
 }
 
