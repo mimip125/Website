@@ -129,7 +129,7 @@ body{
   top: 0;
 }
 
-/* Container for image text 
+/* Container for image text */
 .caption-container {
   text-align: center;
   background-color: #222;
@@ -141,7 +141,7 @@ body{
   content: "";
   display: table;
   clear: both;
-}*/
+}
 
 /* Six columns side by side */
 .column {
