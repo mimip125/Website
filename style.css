@@ -151,8 +151,8 @@ img {
 
 /* Six columns side by side */
 .column {
-  float: left;
-  width: 50%;
+  margin: 30;
+  width: 20%;
 }
 
 /* Add a transparency effect for thumnbail images */
