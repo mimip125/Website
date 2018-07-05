@@ -151,7 +151,7 @@ img {
 
 /* Six columns side by side */
 .column {
-  margin: 30;
+  margin-left: 30px;
   width: 20%;
 }
 
