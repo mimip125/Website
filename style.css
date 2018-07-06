@@ -36,10 +36,13 @@ body{
 	text-align: center;
 }
 /* but try and be as consist possible */
+.navcont {
+	text-align: center;
+}
+
 .topnav {
   overflow: hidden;
   background-color: white;
-  text-align: center;
 }
 
 .topnav a {
@@ -67,8 +70,7 @@ body{
 @media screen and (max-width: 450px) {
   .topnav a:not(.active) {display: none;}
   .topnav a.icon {
-    float: right;
-    display: block;
+    display: inline-block;
   }
 }
 
@@ -81,8 +83,7 @@ body{
   }
   .topnav.responsive a {
     float: none;
-    display: block;
-    text-align: center;
+    display: inline-block;
   }
 }
 #nav{
