@@ -56,7 +56,7 @@ body{
   color: darkgoldenrod;
 }
 
-.active {
+.topnav .active {
   background-color: white;
   color: darkgoldenrod;
 }
