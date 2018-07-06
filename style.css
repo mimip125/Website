@@ -52,7 +52,7 @@ body{
 			#nav ul li a{
 				padding: 20px;
 				background: white;
-				color: darkgoldenrod;
+				color: gray;
 			}
 			#nav ul li a:hover{
 			    color: darkgoldenrod;
@@ -63,6 +63,7 @@ body{
 				color: darkgoldenrod;
 				background-color: ; }
 				#nav ul li.darkgoldenrod a{
+					color: darkgoldenrod;
 					background-color: ;
 				}
 				/*#nav ul li.gray a{
@@ -72,6 +73,7 @@ body{
 					background-color: white;*/
 				}
 				#nav ul li.darkgoldenrod a{
+					color: darkgoldenrod;
 					background-color: ;
 				}
 
