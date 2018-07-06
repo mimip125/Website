@@ -44,11 +44,11 @@ body{
 .topnav a {
   float: left;
   display: block;
-  color: black;
+  color: gray;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.5em;
 }
 
 .topnav a:hover {
@@ -73,7 +73,7 @@ body{
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 450px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
