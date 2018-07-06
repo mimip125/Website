@@ -42,8 +42,8 @@ body{
 }
 
 .topnav a {
-  float: left;
-  display: block;
+  float: center;
+  display: inline-block;
   color: gray;
   text-align: center;
   padding: 14px 16px;
@@ -198,7 +198,7 @@ img {
 
 .row:after {
   content: "";
-  display: table;
+  display: inline-block;
   clear: both;
   float: center;
 }
