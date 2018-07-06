@@ -37,17 +37,13 @@ body{
 }
 /* but try and be as consist possible */
 .topnav {
-  float: center;
-  display: inline-block;
-  padding: 300px;
   overflow: hidden;
   background-color: white;
   text-align: center;
 }
 
 .topnav a {
-  float: left;
-  display: block;
+  display: inline-block;
   color: gray;
   text-align: center;
   padding: 14px 16px;
