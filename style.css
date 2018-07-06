@@ -37,7 +37,9 @@ body{
 }
 /* but try and be as consist possible */
 .navcont {
+	float: center;
 	text-align: center;
+	display: inline-block;
 }
 
 .topnav {
