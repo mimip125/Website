@@ -68,9 +68,13 @@ body{
 }
 
 @media screen and (max-width: 450px) {
-  .topnav a:not(.active) {display: none;}
+  .topnav a:not(.active) {
+	display: none;
+	float: left;
+  }
   .topnav a.icon {
     display: inline-block;
+    float: right;
   }
 }
 
