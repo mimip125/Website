@@ -30,12 +30,16 @@ body{
 #logo{
 	width: 100%;
 	margin-top: 5px;
-	font-family: Garamond, Baskerville, "Baskerville Old Face",           "Hoefler Text", "Times New Roman", serif; font-size: 150%; 
-	line-height: 2em; width: 100%; margin: 0; background: white;
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; width: 100%; margin: 0; background: white;
 	display: inline-block;
 	text-align: center;
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 601px) {
+	#logo{
+		 font-size: 150%; 
+		line-height: 2em;
+	}
+@media screen and (max-width: 600px) {
 	#logo{
 		font-size:75%;
 		line-height: 1em;
