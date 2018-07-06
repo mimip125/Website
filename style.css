@@ -62,7 +62,7 @@ body{
 			#nav ul li a:active{ 
 				color: darkgoldenrod;
 				background-color: ; }
-				#nav ul li.gray a{
+				#nav ul li.darkgoldenrod a{
 					background-color: ;
 				}
 				/*#nav ul li.gray a{
@@ -71,7 +71,7 @@ body{
 				#nav ul li.gray a{
 					background-color: white;*/
 				}
-				#nav ul li.gray a{
+				#nav ul li.darkgoldenrod a{
 					background-color: ;
 				}
 
@@ -151,7 +151,8 @@ img {
 
 /* Six columns side by side */
 .column {
-  margin-left: 30px;
+  margin: 300px;
+  float: left;
   width: 20%;
 }
 
