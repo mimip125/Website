@@ -70,24 +70,24 @@ body{
 }
 
 @media screen and (max-width: 450px) {
-  .topnav a:not(.active) {
+  .navcont .topnav a:not(.active) {
 	display: none;
 	float: left;
   }
-  .topnav a.icon {
+  .navcont .topnav a.icon {
     display: inline-block;
     float: right;
   }
 }
 
 @media screen and (max-width: 450px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
+  .navcont .topnav.responsive {position: relative;}
+  .navcont .topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-  .topnav.responsive a {
+  .navcont .topnav.responsive a {
     float: none;
     display: inline-block;
   }
