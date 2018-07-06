@@ -13,7 +13,7 @@
 
 <!-- you should always add your stylesheet (css) in the head tag so that it starts loading before the page html is being displayed -->	
 	<link rel="stylesheet" href="style.css" type="text/css" />
-	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -23,15 +23,16 @@
 		<div id="logo">
 			<h1><a href="/Website/">Miranda Pepin</a></h1>
 		</div>
-		<br/>
-		<div id="nav">
-			<ul>
-				<li class="gray"><a href="./" style="font-size:110%">RESUME</a></li>
-				<!--<li class="gray"><a href="#/projects.html">Projects</a></li>
-				<li class="gray"><a href="#/about.html">Gallery</a></li>-->
-				<li class="darkgoldenrod"><a href="#/contact.html" style="font-size:110%">CONTACT</a></li>
-			</ul>	
-		</div>
+	<div class="topnav" id="myTopnav">
+			<a href="./" style="font-size:110%">RESUME</a>
+			<!--<li class="gray"><a href="./projects.html">Projects</a></li>
+			<li class="gray"><a href="./media.html">Gallery</a></li>-->
+			<a href="./contact.html" style="font-size:110%" class="active">CONTACT</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+	    <i class="fa fa-bars"></i>
+	  </a>
+	</div>
+
 		<br/>
 		<br/>
 		<br/>
