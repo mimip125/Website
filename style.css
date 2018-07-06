@@ -48,6 +48,8 @@ body{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  width: 100%;
+  font-size: 1.5em;
 }
 
 .topnav a:hover {
