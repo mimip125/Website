@@ -42,7 +42,7 @@ body{
 }
 
 .topnav a {
-  float: left;
+  float: center;
   display: block;
   color: gray;
   text-align: center;
@@ -65,7 +65,7 @@ body{
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 450px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
