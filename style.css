@@ -149,7 +149,7 @@ img {
   content: "";
   display: table;
   clear: both;
-  text-align: center;
+  float: center;
 }
 
 /* Six columns side by side */
