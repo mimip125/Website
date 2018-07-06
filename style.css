@@ -202,12 +202,12 @@ img {
 
 .row:after {
   content: "";
-  display: inline-block;
+  display: table;
   clear: both;
-  float: center;
 }
-
-/* Six columns side by side */
+.thumbnails {
+	text-align: center;
+/*columns side by side */
 .column {
   display: inline-block;
   width: 20%;
