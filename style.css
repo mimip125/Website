@@ -30,7 +30,7 @@ body{
 #logo{
 	width: 100%;
 	margin-top: 5px;
-	font-family: Garamond, Baskerville, "Baskerville Old Face",           "Hoefler Text", "Times New Roman", serif; font-size: 100%; 
+	font-family: Garamond, Baskerville, "Baskerville Old Face",           "Hoefler Text", "Times New Roman", serif; font-size: 150%; 
 	line-height: 2em; width: 100%; margin: 0; background: white;
 	display: inline-block;
 	text-align: center;
@@ -55,7 +55,7 @@ body{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 4em;
+  font-size: 100%;
 }
 
 .topnav a:hover {
