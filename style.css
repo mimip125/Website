@@ -52,13 +52,13 @@ body{
 }
 
 .topnav a:hover {
-  background-color: darkgoldenrod;
-  color: black;
+  background-color: white;
+  color: darkgoldenrod;
 }
 
 .active {
-  background-color: darkgoldenrod;
-  color: white;
+  background-color: white;
+  color: gray;
 }
 
 .topnav .icon {
