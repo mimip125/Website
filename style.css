@@ -52,7 +52,7 @@ body{
 			#nav ul li a{
 				padding: 20px;
 				background: white;
-				color: gray;
+				color: darkgoldenrod;
 			}
 			#nav ul li a:hover{
 			    color: darkgoldenrod;
@@ -151,7 +151,7 @@ img {
 
 /* Six columns side by side */
 .column {
-  margin: 300px;
+  text-align: center;	
   float: left;
   width: 20%;
 }
