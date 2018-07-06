@@ -35,6 +35,11 @@ body{
 	display: inline-block;
 	text-align: center;
 }
+@media screen and (max-width: 450px) {
+	#logo{
+		font-size:75%
+		line-height: 1em;
+	}
 /* but try and be as consist possible */
 
 .topnav {
