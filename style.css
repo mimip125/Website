@@ -42,6 +42,7 @@ body{
   padding: 300px;
   overflow: hidden;
   background-color: white;
+  text-align: center;
 }
 
 .topnav a {
