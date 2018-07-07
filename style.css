@@ -31,7 +31,7 @@ body{
 	width: 100%;
 	margin: 0;
 	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; width: 100%; margin: 0; background: white;
-	display: inline-block; background-color: blue;
+	display: inline-block; background-color: yellow;
 	text-align: center;
 }
 @media screen and (min-width: 601px) {
