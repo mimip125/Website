@@ -28,7 +28,7 @@ body{
 /* or on different lines like below */
 #logo{
 	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; width: 100%; margin: 0; background: white;
-	display: inline-block; background-color: pink;
+	display: inline-block; background-color: ;
 	text-align: center;
 }
 @media screen and (min-width: 601px) {
@@ -45,7 +45,7 @@ body{
 
 .topnav {
   overflow: hidden;
-  background-color: gray;
+  background-color: ;
   text-align: center;
 }
 
