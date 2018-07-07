@@ -113,7 +113,7 @@ img {
 /* Position the image container (needed to position the left and right arrows) */
 .container {
   position: relative;
-  max-width: 3000px;
+  max-width: 300px;
 }
 
 /* Hide the images by default */
