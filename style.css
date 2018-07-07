@@ -24,14 +24,12 @@ body{
     font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; color: gray; 
 }
 /* you can but your code all in one line like above */
-#page{ margin: 20px; }
+#page{ margin: 30px; }
 
 /* or on different lines like below */
 #logo{
-	width: 100%;
-	margin: 0;
 	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; width: 100%; margin: 0; background: white;
-	display: inline-block; background-color: yellow;
+	display: inline-block; background-color: pink;
 	text-align: center;
 }
 @media screen and (min-width: 601px) {
@@ -56,7 +54,7 @@ body{
   display: inline-block;
   color: gray;
   text-align: center;
-  padding: 1px 16px;
+  padding: 0px 16px;
   text-decoration: none;
   font-family: small-caps;
   font-size: 100%;
