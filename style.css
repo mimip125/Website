@@ -24,6 +24,9 @@ body{
 }
 /* you can but your code all in one line like above */
 #page{ margin: 30px; }
+@media screen and (max-width: 450px) {
+	#page{margin: 15px; }
+}
 
 /* or on different lines like below */
 #logo{
@@ -38,7 +41,7 @@ body{
 }
 @media screen and (max-width: 600px) {
 	#logo{
-		font-size:75%;
+		font-size:80%;
 	}
 }
 /* but try and be as consist possible */
