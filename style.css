@@ -34,11 +34,12 @@ body{
 	display: inline-block;
 	text-align: center;
 }
-@media screen and (max-width: 601px) {
+@media screen and (min-width: 601px) {
 	#logo{
 		 font-size: 150%; 
 		line-height: 2em;
 	}
+}
 @media screen and (max-width: 600px) {
 	#logo{
 		font-size:75%;
