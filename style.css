@@ -29,7 +29,7 @@ body{
 /* or on different lines like below */
 #logo{
 	width: 100%;
-	margin-top: 5px;
+	margin-top: 10px;
 	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; width: 100%; margin: 0; background: white;
 	display: inline-block;
 	text-align: center;
@@ -58,7 +58,7 @@ body{
   display: inline-block;
   color: gray;
   text-align: center;
-  padding: 14px 16px;
+  padding: 5px 16px;
   text-decoration: none;
   font-family: small-caps;
   font-size: 100%;
