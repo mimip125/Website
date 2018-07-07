@@ -114,7 +114,7 @@ img {
 .container {
   position: relative;
   text-align: center;
-  max-width: 300px;
+  max-width: 1000px;
 }
 
 /* Hide the images by default */
