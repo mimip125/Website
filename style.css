@@ -223,6 +223,8 @@ img {
 #footer{
 	border-bottom: 1px #ccc solid;
 	margin-bottom: 10px;
+	position: fixed;
+	bottom: 0;
 }
 	#footer p{
 		text-align: right;
