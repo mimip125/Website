@@ -122,6 +122,18 @@ img {
   display: none;
 }
 
+.same {
+	height: 300px;
+ 	width: 400px;
+ 	overflow: none;
+}
+
+.thumbsame {
+	height: 90px;
+ 	width: 120px;
+ 	overflow: none;
+}
+
 /* Add a pointer when hovering over the thumbnail images */
 .cursor {
   cursor: pointer;
