@@ -128,7 +128,7 @@ img {
 }
 
 .thumbsame {
- 	width: 20%;
+ 	width: 100%;
  	overflow: none;
 }
 
@@ -234,7 +234,7 @@ img {
 	display: inline-block;
 	border-bottom: 1px #ccc solid;
 	margin-bottom: 10px;
-	position: relative;
+	position: absolute;
 	bottom: 0;
 }
 	#footer p{
