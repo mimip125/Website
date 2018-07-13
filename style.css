@@ -221,6 +221,7 @@ img {
 	margin: 0;
 }
 #footer{
+	display: inline-block;
 	border-bottom: 1px #ccc solid;
 	margin-bottom: 10px;
 	position: fixed;
