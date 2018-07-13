@@ -123,14 +123,12 @@ img {
 }
 
 .same {
-	height: 300px;
- 	width: 400px;
+ 	width: 100%;
  	overflow: none;
 }
 
 .thumbsame {
-	height: 90px;
- 	width: 110px;
+ 	width: 20%;
  	overflow: none;
 }
 
@@ -236,7 +234,7 @@ img {
 	display: inline-block;
 	border-bottom: 1px #ccc solid;
 	margin-bottom: 10px;
-	position: fixed;
+	position: relative;
 	bottom: 0;
 }
 	#footer p{
