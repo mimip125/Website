@@ -259,8 +259,6 @@ img {
 	display: block;
 	border-bottom: 1px #ccc solid;
 	margin-bottom: 10px;
-	position: relative;
-	bottom: 0;
 }
 	#footer p{
 		text-align: right;
