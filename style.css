@@ -249,10 +249,11 @@ img {
     margin: 0;
 }
 #content{
+	border: 0.5vw solid dimgray;
 	width: 100%
 	display: inline-block;
 	text-align: center;
-	margin: 0;
+	margin: 10%;
 }
 #footer{
 	display: block;
