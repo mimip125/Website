@@ -1,26 +1,33 @@
+*{box-sizing: border-box;}
+html{ margin: auto; max-width: 1000px;}	
 /*
 * multi-line comment
 */
 p{ line-height: 1em; }
 h1, h2, h3, h4{
-    color: gray;
+    color: dimgray;
 	font-weight: normal;
 	margin: 0.25em;
 }
 h1{ font-size: 4em; }
 h2{ font-size: 1.5em; }
 
-a{
+a.class1{
+	color: darkgoldenrod;
+	text-decoration: none;
+}
+	a.class1:hover,
+	a.class1:active{ color: dimgray; }
+a.class2{
 	color: dimgray;
 	text-decoration: none;
 }
-	a:hover,
-	a:active{ color: darkgoldenrod; }
-
+	a.class2:hover,
+	a.class2:active{ color: darkgoldenrod; }
 /* you can structure your code's white space so that it is as readable for when you come back in the future or for other people to read and edit quickly */
 
 body{
-    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; color: gray; 
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; color: gray;
 }
 /* you can but your code all in one line like above */
 #page{ margin: 30px; }
@@ -30,9 +37,8 @@ body{
 
 /* or on different lines like below */
 #logo{
-	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; width: 100%; margin: 0; background: white;
-	display: inline-block; background-color: ;
-	text-align: center;
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; width: 100%; margin: 0; 
+	background: white; color: gray; display: inline-block; background-color: ; text-align: center;
 }
 @media screen and (min-width: 601px) {
 	#logo{
@@ -215,10 +221,45 @@ img {
   display: inline-block;
   width: 20%;
 }
-
 .mediacolumn {
 	display: inline-block;
 	width:15%;
+}
+
+.newscolumn {
+	width: 34%;
+}
+
+.textcolumn {
+	padding: 10px;
+	text-align: left;
+	width: 66%;
+}
+
+.right{
+	float: right;
+}
+.left{
+	float: left;
+}
+
+
+@media screen and (max-width: 900px) {
+    .textcolumn {
+        width: 50%;
+    }
+     .newscolumn {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .textcolumn {
+        width: 100%;
+    }
+     .newscolumn {
+        width: 100%;
+    }
 }
 
 /* Add a transparency effect for thumnbail images */
@@ -260,12 +301,12 @@ img {
 	border-bottom: 1px #ccc solid;
 	margin-bottom: 10px;
 }
-	#footer p{
-		text-align: right;
-		text-transform: uppercase;
-		font-size: 80%;
-		color: grey;
-	}
+#footer p{
+	text-align: right;
+	text-transform: uppercase;
+	font-size: 80%;
+	color: grey;
+}
 
 /* multiple styles seperated by a , */
 #content,
