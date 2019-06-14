@@ -261,19 +261,16 @@ img {
         width: 100%;
     }
 	.mediacolumn {
-		width: 10%;
+		width: 13%;
 	}
 }
 
 /* Add a transparency effect for thumnbail images */
 .demo {
-  opacity: 0.6;
-}
-
-.active,
+  opacity: 0..active,
 .demo:hover {
   opacity: 1;
-}
+
 
 .center {
     display: block;
